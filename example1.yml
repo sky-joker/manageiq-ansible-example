@@ -1,0 +1,8 @@
+---
+- name: ManageIQ Ansible Test
+  hosts: all
+  gather_facts: no
+  tasks:
+    - name: test message
+      debug: msg="Test Message"
+
